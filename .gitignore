@@ -1,0 +1,208 @@
+# =============================================================================
+# OS
+# =============================================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# =============================================================================
+# Project folders (gitignored by convention)
+# =============================================================================
+_output/
+_reference/
+
+# =============================================================================
+# Dependencies
+# =============================================================================
+node_modules/
+.pnpm-store/
+.pnpm-debug.log
+jspm_packages/
+bower_components/
+
+# =============================================================================
+# Environment files
+# =============================================================================
+.env
+.env.local
+.env.development
+.env.development.local
+.env.test
+.env.test.local
+.env.production
+.env.production.local
+.env.*.local
+.env*
+*.env
+!.env.example
+!.env.sample
+
+# =============================================================================
+# Next.js
+# =============================================================================
+.next/
+out/
+.vercel/
+.netlify/
+.turbo/
+next-env.d.ts
+
+# Next.js build output
+build/
+.next/cache/
+
+# Contentlayer
+.contentlayer/
+
+# =============================================================================
+# Build outputs
+# =============================================================================
+dist/
+lib/
+es/
+esm/
+cjs/
+umd/
+*.tsbuildinfo
+
+# =============================================================================
+# TypeScript
+# =============================================================================
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# =============================================================================
+# Logs
+# =============================================================================
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.pnpm-debug.log
+
+# =============================================================================
+# Python
+# =============================================================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.env/
+.python-version
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-wheel-metadata/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Testing
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+.hypothesis/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pytype/
+.pyre/
+
+# Linting
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# =============================================================================
+# Editor / IDE
+# =============================================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-workspace
+*.sublime-project
+.spyderproject
+.spyproject
+.ropeproject
+
+# =============================================================================
+# Testing / Coverage
+# =============================================================================
+coverage/
+.coverage
+htmlcov/
+.nyc_output/
+*.lcov
+
+# =============================================================================
+# Misc
+# =============================================================================
+*.bak
+*.tmp
+*.temp
+*.orig
+*.rej
+*.patch
+
+# Local
+.local/
+local/
+scratch/
+temp/
+tmp/
+
+# Secrets (extra safety)
+*.pem
+*.key
+secrets/
+credentials/

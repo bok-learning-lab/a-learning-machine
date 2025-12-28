@@ -1,0 +1,18 @@
+{
+  "name": "a-learning-machine",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@10.0.0",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "setup": "./scripts/setup.sh",
+    "dev": "./scripts/dev.sh",
+    "build": "pnpm -r build",
+    "lint": "pnpm -r lint",
+    "typecheck": "pnpm -r typecheck",
+    "interface": "pnpm --filter @a-learning-machine/interface",
+    "ink": "pnpm --filter @a-learning-machine/ink"
+  }
+}
